@@ -157,6 +157,17 @@ a { color: inherit; }
   background: var(--accent-soft); color: var(--text);
 }
 
+/* Contact */
+.contact { display: flex; align-items: flex-end; justify-content: space-between; gap: 32px; flex-wrap: wrap; }
+.contact-card {
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 24px 28px; box-shadow: var(--shadow); display: grid; gap: 8px; min-width: 280px;
+}
+.contact-name { font-weight: 700; font-size: 1.15rem; margin-bottom: 4px; }
+.contact-line { color: var(--accent); text-decoration: none; font-weight: 500; }
+.contact-line:hover { text-decoration: underline; }
+@media (max-width: 720px) { .contact-card { min-width: 0; width: 100%; } }
+
 /* Footer */
 .footer { border-top: 1px solid var(--line); padding: 32px 0; font-size: .92rem; }
 .footer-inner { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
