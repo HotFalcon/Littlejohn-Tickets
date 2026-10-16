@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Littlejohn Tickets</title>
+  <meta name="description" content="Littlejohn Tickets is an independent ticket resale business built on its own market-data software: live primary inventory, resale prices and demand, scored into buying decisions.">
+  <meta property="og:title" content="Littlejohn Tickets">
+  <meta property="og:description" content="Ticket resale, run on in-house market-data software.">
+  <meta property="og:url" content="https://littlejohntickets.com/">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#top" aria-label="Littlejohn Tickets home">
+        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M4 9a3 3 0 0 1 3-3h18a3 3 0 0 1 3 3v3.2a3.8 3.8 0 0 0 0 7.6V23a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3v-3.2a3.8 3.8 0 0 0 0-7.6Z" fill="currentColor"/><path d="M12 11v10h7" fill="none" stroke="var(--bg)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>Littlejohn Tickets</span>
+      </a>
+      <nav class="nav-links" aria-label="Sections">
+        <a href="#what">What we do</a>
+        <a href="#software">Software</a>
+        <a href="#advantages">Advantages</a>
+        <a href="#stack">Technology</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="wrap">
+        <p class="eyebrow">Ticket resale &middot; Market data &middot; Automation</p>
+        <h1>Ticket resale, run on our own software.</h1>
+        <p class="lede">Littlejohn Tickets buys and resells tickets to live events. Every decision starts with data
+          our in-house platform collects several times a day: what is on sale at the box office, what the same
+          seats sell for on the resale market, and how fast they move.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#software">See how it works</a>
+          <a class="btn btn-ghost" href="#advantages">Why it matters</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="By the numbers">
+      <div class="wrap stats-grid">
+        <div class="stat"><span class="stat-num">260+</span><span class="stat-label">primary ticketing sites tracked</span></div>
+        <div class="stat"><span class="stat-num">3&times;</span><span class="stat-label">full market scans every day</span></div>
+        <div class="stat"><span class="stat-num">100M+</span><span class="stat-label">resale listings in our price history</span></div>
+        <div class="stat"><span class="stat-num">Seat-level</span><span class="stat-label">section, row and price detail</span></div>
+      </div>
+    </section>
+
+    <section id="what" class="section">
+      <div class="wrap">
+        <p class="eyebrow">What we do</p>
+        <h2>Find the tickets worth buying, before the market does.</h2>
+        <div class="two-col">
+          <p>Most resellers work from instinct and a few browser tabs. We work from a database. Our software watches
+            the official box-office sites of hundreds of venues and college athletics programs, records every event,
+            price level and open seat, and lines each event up against its listings on the major resale
+            marketplaces.</p>
+          <p>The result is a ranked list of opportunities: events where demand is outrunning supply, sections that
+            are about to sell out, and seats priced well below what they resell for after fees. We buy where the
+            numbers are clear and list through established resale channels.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="software" class="section section-alt">
+      <div class="wrap">
+        <p class="eyebrow">The software</p>
+        <h2>From raw inventory to a buying decision.</h2>
+        <p class="section-lede">A pipeline we designed and built ourselves, running on cloud servers without anyone
+          at a keyboard.</p>
+        <ol class="pipeline">
+          <li class="step">
+            <span class="step-num">01</span>
+            <h3>Collect</h3>
+            <p>Scheduled runs visit each primary ticketing site, walk its full event catalog and read seat-level
+              availability: open, sold, held, and newly released seats.</p>
+          </li>
+          <li class="step">
+            <span class="step-num">02</span>
+            <h3>Match</h3>
+            <p>Each event is linked to the same game or show on the resale marketplaces, down to the section, so
+              box-office prices and resale prices can be compared seat for seat.</p>
+          </li>
+          <li class="step">
+            <span class="step-num">03</span>
+            <h3>Measure</h3>
+            <p>Resale prices, listing counts and recent sales are recorded every run, giving a history of supply,
+              demand and sell-through for every event we follow.</p>
+          </li>
+          <li class="step">
+            <span class="step-num">04</span>
+            <h3>Score</h3>
+            <p>Events and groups of adjacent seats are scored on the spread between cost and expected resale payout
+              after both sides' fees, and on how quickly comparable seats sell.</p>
+          </li>
+          <li class="step">
+            <span class="step-num">05</span>
+            <h3>Alert</h3>
+            <p>The best opportunities, seat releases and fast-moving events surface on a dashboard and as alerts,
+              so a decision can be made in minutes, not days.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="advantages" class="section">
+      <div class="wrap">
+        <p class="eyebrow">Advantages</p>
+        <h2>What the software gives us that instinct can't.</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Coverage</h3>
+            <p>Hundreds of venues checked several times a day. No person could watch that many box offices, and
+              most opportunities are on sites nobody else is watching.</p>
+          </article>
+          <article class="card">
+            <h3>Speed</h3>
+            <p>Seat releases and price changes are caught on the next run. When held seats go on sale, we know
+              within hours.</p>
+          </article>
+          <article class="card">
+            <h3>Decisions on evidence</h3>
+            <p>Every purchase is backed by real resale prices and sell-through, calculated after marketplace fees,
+              not by a guess about what something might sell for.</p>
+          </article>
+          <article class="card">
+            <h3>History</h3>
+            <p>Raw snapshots of every run are kept, so scores are checked against how events actually played out
+              and improve season over season.</p>
+          </article>
+          <article class="card">
+            <h3>Lower risk</h3>
+            <p>Seeing supply, demand and the full price ladder before buying means fewer tickets bought at the wrong
+              price and fewer left unsold.</p>
+          </article>
+          <article class="card">
+            <h3>It improves itself</h3>
+            <p>AI agents review every run, file and fix problems, and test each change before it ships, so the
+              system gets more reliable every week with little manual upkeep.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="engineering" class="section section-alt">
+      <div class="wrap two-col two-col-wide">
+        <div>
+          <p class="eyebrow">How it's built</p>
+          <h2>Engineered like a product, not a script.</h2>
+          <p>The platform is developed through an automated engineering pipeline. Every change goes through a pull
+            request, automated tests, a replay against real data and a review before it reaches production.
+            Experiments run on separate test servers, so production is never put at risk to try something new.</p>
+        </div>
+        <ul class="checklist">
+          <li>Automated test suite on every change</li>
+          <li>Separate test infrastructure for experiments</li>
+          <li>A record and scorecard for every production run</li>
+          <li>Automatic rollback when a change makes a run worse</li>
+          <li>AI agents for code review, run review and fixes</li>
+          <li>Daily audit of scored deals against real sales</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="stack" class="section">
+      <div class="wrap">
+        <p class="eyebrow">Technology</p>
+        <h2>The stack.</h2>
+        <div class="stack">
+          <div class="stack-group">
+            <h3>Data collection</h3>
+            <ul><li>Python</li><li>Playwright</li><li>Chrome</li><li>GraphQL &amp; REST</li></ul>
+          </div>
+          <div class="stack-group">
+            <h3>Storage</h3>
+            <ul><li>PostgreSQL</li><li>SQLite</li><li>Parquet</li><li>Cloudflare R2</li></ul>
+          </div>
+          <div class="stack-group">
+            <h3>Infrastructure</h3>
+            <ul><li>GitHub Actions</li><li>Hetzner Cloud</li><li>Linux servers</li><li>Scheduled runs</li></ul>
+          </div>
+          <div class="stack-group">
+            <h3>Intelligence</h3>
+            <ul><li>Claude AI agents</li><li>Deal scoring</li><li>Sell-through analysis</li><li>Alerts &amp; dashboard</li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <span>&copy; <span id="year">2026</span> Littlejohn Tickets</span>
+      <span class="muted">Independent ticket resale. Not affiliated with any team, venue or ticketing company.</span>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
